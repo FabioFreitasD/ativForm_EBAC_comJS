@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto+Flex:opsz,wght@8..144,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Formulario de validação.</h1>
+        <h2>Teste o Formulário!</h2>
+        <p>Neste formulário o valor B deve ser maior que o valor A, teste nosso formulário.</p>
+    </div>
+    <form id="form-valido">
+        <div class="container">
+            <label>Valor A</label>
+            <input name="valor-A" class="invalid" type="number" placeholder="Digite aqui">
+            <p class="error error-hidden"></p>
+            <label>Valor B</label>
+            <input name="valor-B" type="number" placeholder="Digite aqui">
+            <p class="mensageSucess"></p>
+            <button type="submit">Enviar</button>
+        </div>    
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.title {
+    background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+form {
+    padding: 20px;
+}
+
+.container label {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.container input {
+    width: 320px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.error {
+    font-size: 12px;
+    color: red;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+button {
+    padding: 8px 20px;
+    font-size: 14px;
+    background: none;
+    border: 1px solid #8a58b9;
+    border-radius: 8px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover {
+    background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    border: 1px solid #8a58b9;
+    color: white;
+}
+
+.error-hidden {
+    display: none;
+}
+
+.mensageSucess {
+    color: green;
+}
